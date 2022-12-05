@@ -1,4 +1,5 @@
 <template>
+<div id="body">
   <nav
     class="navbary fixed-top navbar-expand-lg pt-2 pb-2"
     data-aos="fade-down"
@@ -20,10 +21,10 @@
                             <div class="col-md-4">         
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#myCarousel">Beranda</a></li>                
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#body">Alur Pengajuan</a></li>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#FooterView">Tentang Kami</a></li>
                             </div>
                         </ul>
@@ -34,6 +35,7 @@
             </div>
 
         </nav>
+    </div>
 </template>
 
 <script>
