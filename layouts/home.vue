@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- <NavBar /> -->
+        <NavBar />
         <TopView />
         <MiddleView />
         <FooterView />
@@ -9,13 +9,13 @@
 
 <style >
     @import "https://pro.fontawesome.com/releases/v5.10.0/css/all.css";
-    @import '~/assets/css/app.css';
 </style>
+<!-- @import '~/assets/css/app.css'; -->
 
 <script>
 import FooterView from './home/FooterView.vue'
 import MiddleView from './home/MiddleView.vue'
-// import NavBar from './home/NavBar.vue'
+import NavBar from './home/NavBar.vue'
 import TopView from './home/TopView.vue'
 
 // import aos from '~/plugins/aos'
@@ -26,7 +26,7 @@ export default {
     name: 'home',
     // mixins:[aos],
     components: {
-        // NavBar,
+        NavBar,
         TopView,
         MiddleView,
         FooterView,
