@@ -5,7 +5,7 @@
     data-aos-duration="1000"
     :class="{ onScroll: !view.topOfPage }"
         >
-            <div class="container d-flex ">
+            <div class="container">
                     <div class="col">
                         <a class="navbar-brandy fs-4" href="#" :class="{ 'onScroll': !view.topOfPage}"                        >
                             <span class="logo">
