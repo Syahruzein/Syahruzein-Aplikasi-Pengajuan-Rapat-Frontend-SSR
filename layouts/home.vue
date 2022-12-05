@@ -2,7 +2,7 @@
     <div>
         <NavBar />
         <TopView />
-        <MiddleView :key="$route.fullPath"/>
+        <MiddleView />
         <FooterView />
     </div>
 </template>
