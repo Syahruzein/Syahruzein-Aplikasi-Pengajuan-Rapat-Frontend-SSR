@@ -20,10 +20,10 @@
                             <div class="col-md-4">         
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#myCarousel">Beranda</a></li>                
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#body">Alur Pengajuan</a></li>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                             <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#FooterView">Tentang Kami</a></li>
                             </div>
                         </ul>
