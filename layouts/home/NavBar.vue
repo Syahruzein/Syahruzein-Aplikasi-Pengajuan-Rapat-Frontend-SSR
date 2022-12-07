@@ -1,4 +1,5 @@
 <template>
+<div>
   <nav
     class="navbar fixed-top navbar-expand-lg pt-2 pb-2"
     data-aos="fade-down"
@@ -31,6 +32,7 @@
             </div>    
         </div>                    
     </nav>
+</div>
 </template>
 
 <script>
