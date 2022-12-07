@@ -17,7 +17,7 @@
                 <span class="navbar-toggler-icon"><i class="fas fa-bars fas-color" :class="{ 'onScroll': !view.topOfPage}"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <div class="col-md-4">         
                     <li class="nav-item"><a class="nav-linky fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#myCarousel">Beranda</a></li>                
                     </div>

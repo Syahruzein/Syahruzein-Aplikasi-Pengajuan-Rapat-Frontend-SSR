@@ -92,11 +92,11 @@
         color: black;
     }
 
-    /* @media screen and (max-width: 768px) {
-        .navbar-nav{
+    @media screen and (max-width: 768px) {
+        .navbar-brand{
             display: none;
         }
-    } */
+    }
 
     /* MiddleView */
 
