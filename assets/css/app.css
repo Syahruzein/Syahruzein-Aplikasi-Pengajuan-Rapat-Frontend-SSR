@@ -69,23 +69,19 @@
         color:white;
         text-shadow: 2px 2px 2px #000000;
         text-decoration: none;
-        position: fixed;
     }
     .nav-link:hover, .nav-link:focus {
         transition: all 0.2s ease-in-out;
         color:yellow;
-        position: fixed;
     }
     .nav-link.onScroll {
         transition: all 0.2s ease-in-out;
         color:black;
         text-shadow: none;
-        position: fixed;
     }
     .nav-link.onScroll:hover, .nav-link.onScroll:focus {
         transition: all 0.2s ease-in-out;
         color: #0d6efd;
-        position: fixed;
     }
 
     i.fas-color{

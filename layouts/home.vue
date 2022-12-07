@@ -12,7 +12,7 @@
     @import '~/assets/css/app.css';
 </style>
 
-<script>
+<script scope>
 import FooterView from './home/FooterView.vue'
 import MiddleView from './home/MiddleView.vue'
 import NavBar from './home/NavBar.vue'
@@ -42,11 +42,10 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'stylesheet', href: '/bootstrap/css/bootstrap.min.css' }
+            { href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', rel: 'stylesheet', integrity:"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", crossorigin:"anonymous" }
         ],
         script: [
-            { src: "/bootstrap/js/bootstrap.min.js", type: "text/javascript"},
-            { src: "/bootstrap/umd/popper.min.js", type: "text/javascript"},
+            { src: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js", integrity:"sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa", crossorigin:"anonymous"},
         ]
 
         }
