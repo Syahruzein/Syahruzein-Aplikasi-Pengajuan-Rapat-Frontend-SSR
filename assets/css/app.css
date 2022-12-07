@@ -63,22 +63,22 @@
     }
   
 
-    .nav-linky {
+    .nav-link {
         transition: all 0.2s ease-in-out;
         color:white;
         text-shadow: 2px 2px 2px #000000;
         text-decoration: none;
     }
-    .nav-linky:hover, .nav-linky:focus {
+    .nav-link:hover, .nav-link:focus {
         transition: all 0.2s ease-in-out;
         color:yellow;
     }
-    .nav-linky.onScroll {
+    .nav-link.onScroll {
         transition: all 0.2s ease-in-out;
         color:black;
         text-shadow: none;
     }
-    .nav-linky.onScroll:hover, .nav-linky.onScroll:focus {
+    .nav-link.onScroll:hover, .nav-link.onScroll:focus {
         transition: all 0.2s ease-in-out;
         color: #0d6efd;
     }
@@ -92,11 +92,11 @@
         color: black;
     }
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         .navbar-brand{
             display: none;
         }
-    }
+    } */
 
     /* MiddleView */
 
