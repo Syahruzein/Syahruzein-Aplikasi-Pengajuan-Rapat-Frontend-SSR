@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  layout: "home",
+  layout: "homed",
   name: 'IndexPage',
   computed: {
     currentUser() {

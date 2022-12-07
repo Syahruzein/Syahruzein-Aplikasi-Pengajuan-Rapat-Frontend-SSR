@@ -43,11 +43,8 @@
         </v-container>
         
         <template v-slot:extension >
-          <!-- <v-tabs centered >
-            <v-tab to="/auth/login/Login">Users</v-tab>
-            <v-tab to="/auth/login/LoginDirektur">Direktur | Wakil Direktur</v-tab>
-            <v-tab to="/auth/login/Sekretaris">Sekretaris</v-tab>
-          </v-tabs> -->
+          <v-tabs centered >
+          </v-tabs>
         </template>
 
         <v-btn icon>
