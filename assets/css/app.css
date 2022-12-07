@@ -35,28 +35,28 @@
 
     /* NavBar */
 
-    .navbary {
+    .navbar {
         transition: all 0.2s ease-in-out;
         background: transparent;
         font-weight: 600;
     }
-    .navbary.onScroll {
+    .navbar.onScroll {
         transition: all 0.2s ease-in-out;
         box-shadow: 0 0 10px #aaa;
         background-color: white;
     }
 
-    .navbar-brandy {
+    .navbar-brand {
         transition: all 0.2s ease-in-out;
         color:white;
         text-shadow: 2px 2px 2px #000000;
         text-decoration: none;
     }
-    .navbar-brandy:hover {
+    .navbar-brand:hover {
         transition: all 0.2s ease-in-out;
         color:white;
     }
-    .navbar-brandy.onScroll {
+    .navbar-brand.onScroll {
         transition: all 0.2s ease-in-out;
         color:black;
         text-shadow: none;
@@ -92,11 +92,11 @@
         color: black;
     }
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         .navbar-nav{
             display: none;
         }
-    }
+    } */
 
     /* MiddleView */
 
