@@ -17,19 +17,16 @@
                 <span class="navbar-toggler-icon"><i class="fas fa-bars fas-color" :class="{ 'onScroll': !view.topOfPage}"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                             
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#myCarousel">Beranda</a>
-                    </li>                
-                    
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#body">Alur Pengajuan</a>
-                    </li>
-                                        
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#FooterView">Tentang Kami</a>
-                    </li>
+                <ul class="navbar-nav">
+                    <div class="col-md-4">         
+                    <li class="nav-item"><a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#myCarousel">Beranda</a></li>                
+                    </div>
+                    <div class="col-md-6">
+                    <li class="nav-item"><a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#body">Alur Pengajuan</a></li>
+                    </div>
+                    <div class="col-md-6">
+                    <li class="nav-item"><a class="nav-link fs-5" :class="{ 'onScroll': !view.topOfPage}" href="#FooterView">Tentang Kami</a></li>
+                    </div>
                 </ul>
             </div>    
         </div>                    
