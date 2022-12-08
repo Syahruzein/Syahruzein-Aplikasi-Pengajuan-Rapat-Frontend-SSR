@@ -36,13 +36,13 @@
           label="Do you agree?"
           required
         ></v-checkbox>
-        <!-- <div class="ml-1 mb-5 text-subtitle-1" >
+        <div class="ml-1 mb-5 text-subtitle-1" >
           Belum punya akun? 
           <a
             href="./register"
             style="text-decoration: none;"
           >Daftar</a>
-        </div>   -->
+        </div>  
 
         <v-btn
           :disabled="!valid"
