@@ -276,7 +276,7 @@
                                         class="white--text"
                                         color="bg-gradient-info"
                                         @click="closeDialog"
-                                        :redirect="`user/staff/Notulen`"
+                                        :redirect="`/user/staff/Notulen`"
                                     >Ok</v-btn>
                                     </v-card-actions>
                                 </v-card>

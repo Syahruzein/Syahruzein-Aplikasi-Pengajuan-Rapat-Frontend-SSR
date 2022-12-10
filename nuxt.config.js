@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - aplikasi pengajuan rapat',
-    title: 'apr',
+    title: 'Aplikasi Pengajuan Rapat',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -105,4 +105,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+  server: {
+    port: 8200,
+  }
 }

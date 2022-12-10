@@ -110,7 +110,7 @@
                   class="white--text"
                   color="bg-gradient-info"
                   @click.stop="dialog = !dialog"
-                  :to="`./login`"
+                  :to="`/login`"
               >Ok</v-btn>
               </v-card-actions>
           </v-card>

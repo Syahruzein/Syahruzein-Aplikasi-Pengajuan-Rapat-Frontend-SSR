@@ -45,7 +45,7 @@
                         outlined
                         rounded
                         small
-                        to="user/admin/DataAuth"
+                        to="/user/admin/DataAuth"
                       >
                         LIHAT
                       </v-btn>
@@ -56,7 +56,7 @@
                         outlined
                         rounded
                         small
-                        to="user/admin/Register"
+                        to="/user/admin/Register"
                       >
                         BUAT
                       </v-btn>
