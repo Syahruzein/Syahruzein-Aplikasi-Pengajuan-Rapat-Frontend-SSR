@@ -39,7 +39,7 @@
         <div class="ml-1 mb-5 text-subtitle-1" >
           Belum punya akun? 
           <a
-            href="./register"
+            href="/auth/register"
             style="text-decoration: none;"
           >Daftar</a>
         </div>  

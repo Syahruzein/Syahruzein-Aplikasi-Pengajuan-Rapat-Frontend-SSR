@@ -59,7 +59,7 @@
       <p class="ml-1 mb-5 text-subtitle-1" >
       Sudah punya akun?
         <a
-          href="./login"    
+          href="/auth/login"    
           style="text-decoration: none;"
         >Masuk</a>
       </p>  
@@ -110,7 +110,7 @@
                   class="white--text"
                   color="bg-gradient-info"
                   @click.stop="dialog = !dialog"
-                  :to="`/login`"
+                  :to="`/auth/login`"
               >Ok</v-btn>
               </v-card-actions>
           </v-card>
