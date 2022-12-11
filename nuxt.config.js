@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - aplikasi pengajuan rapat',
-    title: 'Aplikasi Pengajuan Rapat',
+    title: 'APR',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,11 +16,12 @@ export default {
     ]
   },
 
-  ssr: false, // Disable Server Side rendering
+  // ssr: false, // Disable Server Side rendering
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/gradient-color.css',
+    '@fortawesome/fontawesome-free/css/all.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
